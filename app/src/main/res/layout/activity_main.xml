@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingStart="10dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/User_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:paddingEnd="10dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="10sp"
+        android:hint="USER NAME">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/User_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="10sp">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/User_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="10sp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Add"
+        android:textSize="20sp"
+        android:textAlignment="center">
+    </Button>
+    <Button
+        android:id="@+id/Read"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read">
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
